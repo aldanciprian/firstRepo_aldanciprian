@@ -58,6 +58,7 @@ main(int argc, char *argv[])
         errExit("close input");
     if (close(outputFd) == -1)
         errExit("close output");
+   printf("made the copy\n");
 
     exit(EXIT_SUCCESS);
 }
